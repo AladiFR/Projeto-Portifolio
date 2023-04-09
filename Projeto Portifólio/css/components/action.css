@@ -1,9 +1,9 @@
-nav{
+nav {
     text-align: right;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
     display: inline-flex;
     align-items: center;
     color: #fff;
