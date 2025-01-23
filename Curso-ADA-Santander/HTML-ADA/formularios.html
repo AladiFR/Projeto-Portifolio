@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+
+        <form action="">
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" name="nome">
+            </div> 
+            <br>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <br>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <br>
+
+            <div>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <br>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            <br>
+
+            <div>
+                <label for="qualquer">Número:</label>
+                <input type="number" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <div>
+                <label for="qualquer">File:</label>
+                <input type="file" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <div>
+                <label for="qualquer">Url:</label>
+                <input type="url" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <div>
+                <label for="qualquer">Cor:</label>
+                <input type="color" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <div>
+                <label for="qualquer">Range:</label>
+                <input type="range" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <!-- "checkbox" e o "radio" tem praticamente a mesma forma de visualização no navegador, sendo o checkbox marcar vários e o radio sendo uma bolinha, porém, restrito a apenas 1 marcação. -->
+
+
+            <div>
+                <label for="qualquer">Checkbox:</label>
+                <input type="checkbox" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <div>
+                <label for="qualquer">Limpar:</label>
+                <input type="reset" id="qualquer" name="qualquer" value="Limpar">
+            </div>
+            <br>
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <br>
+
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma dessas opções</option>
+                    <option value="receita">Reseita</option>
+                    <option value="despesa">Despesas</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+
+            <br><br>
+
+            <div>
+                <label for="qualquer">Enviar:</label>
+                <input type="submit" id="qualquer" name="qualquer" value="Enviar">
+            </div>
+            <br>
+        </form>
+    </main>
+</body>
+</html>
